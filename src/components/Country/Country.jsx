@@ -23,7 +23,7 @@ const Country = ({ country, handleVisitedCountries }) => {
             <p>Population: {country.population.population}</p>
 
             <p>Area: {country.area.area}  km<sup>2</sup> {
-                country.area.area > 300000 ? ' Big Country' : ' Small Country'
+                country.area.area > 300000 ? ' > Big Country' : ' < Small Country'
             } </p>
 
             <button onClick={() => {
